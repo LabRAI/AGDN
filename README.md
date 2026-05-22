@@ -6,7 +6,7 @@ Official implementation of **AGDN: Learning to Solve Traveling Salesman Problem 
 
 **Venue:** This work has been accepted by the Proceedings of the 32nd ACM SIGKDD Conference on Knowledge Discovery and Data Mining.
 
-**TL;DR:** This repository contains the supervised and unsupervised learning pipelines for solving Euclidean Traveling Salesman Problem (TSP) instances with Anisotropic Graph Diffusion Network (AGDN), together with the search scripts used to decode model predictions into tours.
+**TL;DR:** AGDN solves TSP by combining a MixScore transition matrix with anisotropic graph diffusion, enabling effective multi-hop information exchange, strong performance across diverse instance sizes and distributions, and robust out-of-distribution generalization.
 
 ![AGDN overview](framework.png)
 

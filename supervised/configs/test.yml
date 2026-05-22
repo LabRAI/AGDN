@@ -1,0 +1,32 @@
+# Data
+problem: tsp
+
+# Model
+hidden_dim: 128
+encoder_layer_num: 3
+
+# hyperparams
+K: 5
+topk: 20
+temperature: 0.7
+teleport_ratio: 0.1
+transition_norm: "rw"
+
+# load
+load_model_name: 'TSP100/agd_baseline_generalization.pt'
+
+# device
+device: 1
+
+# Modification 1
+problem_size: 100
+batch_size: 4
+rescale: 2.0  # 2.0, 4.0
+problem_type: 'normal'  # normal, distribution
+distribution: 'uniform'  # uniform, clustered1, explosion, implosion
+data_dir: './data'
+
+# Modification 2
+model_name: agd
+sparse_ratio: 0.7
+layer_name: 'node'

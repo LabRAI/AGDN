@@ -1,0 +1,39 @@
+# Data
+problem: tsp
+
+# Train
+epochs: 20
+weight_decay: 1.0
+max_grad_norm: 1.0
+step_size: 8
+step_decay: 0.8
+ckpt_step: 5
+
+# Model
+hidden_dim: 128
+encoder_layer_num: 5
+
+# hyperparams
+K: 5
+topk: 20
+temperature: 0.7
+teleport_ratio: 0.1
+transition_norm: "rw"
+
+# resume
+resume: False
+
+# device
+device: 1
+
+# Modification 1
+problem_type: 'normal'
+problem_size: 200
+batch_size: 64
+rescale: 2.0
+
+# Modification 2
+model_name: agd  # agd, gcn
+layer_name: 'node'
+lr: 5.0e-5
+sparse_ratio: 0.7

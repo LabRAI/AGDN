@@ -2,7 +2,7 @@
 
 Official implementation of **AGDN: Learning to Solve Traveling Salesman Problem with Anisotropic Graph Diffusion Network**.
 
-**Authors:** [Bolin Shen](https://blshen.org), Ziwei Huang, [Zhiguang Cao](https://zhiguangcaosg.github.io), and [Yushun Dong](https://yushundong.github.io)
+**Authors:** [Bolin Shen](https://blshen.org), [Ziwei Huang](https://openreview.net/profile?id=%7EZiwei_Huang2), [Zhiguang Cao](https://zhiguangcaosg.github.io), and [Yushun Dong](https://yushundong.github.io)
 
 **Venue:** This work has been accepted by the Proceedings of the 32nd ACM SIGKDD Conference on Knowledge Discovery and Data Mining.
 

@@ -2,11 +2,11 @@
 
 Official implementation of **AGDN: Learning to Solve Traveling Salesman Problem with Anisotropic Graph Diffusion Network**.
 
-**Authors:** Bolin Shen, Ziwei Huang, Zhiguang Cao, and Yushun Dong
+**Authors:** [Bolin Shen](https://blshen.org), Ziwei Huang, [Zhiguang Cao](https://zhiguangcaosg.github.io), and [Yushun Dong](https://yushundong.github.io)
 
-**Venue:** Proceedings of the 32nd ACM SIGKDD Conference on Knowledge Discovery and Data Mining V.2, August 9--13, 2026, Jeju Island, Republic of Korea.
+**Venue:** This work has been accepted by the Proceedings of the 32nd ACM SIGKDD Conference on Knowledge Discovery and Data Mining.
 
-This repository contains the supervised and unsupervised learning pipelines for solving Euclidean Traveling Salesman Problem (TSP) instances with Anisotropic Graph Diffusion Network (AGDN), together with the search scripts used to decode model predictions into tours.
+**TL;DR:** This repository contains the supervised and unsupervised learning pipelines for solving Euclidean Traveling Salesman Problem (TSP) instances with Anisotropic Graph Diffusion Network (AGDN), together with the search scripts used to decode model predictions into tours.
 
 ## Quick Start
 

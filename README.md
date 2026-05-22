@@ -8,6 +8,8 @@ Official implementation of **AGDN: Learning to Solve Traveling Salesman Problem 
 
 **TL;DR:** This repository contains the supervised and unsupervised learning pipelines for solving Euclidean Traveling Salesman Problem (TSP) instances with Anisotropic Graph Diffusion Network (AGDN), together with the search scripts used to decode model predictions into tours.
 
+![AGDN overview](framework.png)
+
 ## Quick Start
 
 Clone the repository and install the Python dependencies:
